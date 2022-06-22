@@ -1,6 +1,11 @@
-h2 ~ p {
-    color: red;
-}
+/* la etiqueta parrafo que sea hijo directo
+de la etiqueta div */
 
-/* Se le aplica el estilo a los hermanos 
-que se definan más abajo en el HTML */
+/* div > p {
+    color: red;
+} */
+
+/* Combinador Descendiente, es el mas abitual */
+div p {
+    color: blue;
+}
