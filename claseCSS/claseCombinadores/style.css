@@ -1,3 +1,6 @@
-h2 + p {
+h2 ~ p {
     color: red;
 }
+
+/* Se le aplica el estilo a los hermanos 
+que se definan más abajo en el HTML */
